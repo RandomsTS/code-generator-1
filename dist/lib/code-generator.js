@@ -1,6 +1,9 @@
 "use strict";
-const file_util_1 = require("../util/file-util");
-const randoms_util_1 = require("../util/randoms-util");
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+const file_util_1 = __importDefault(require("../util/file-util"));
+const randoms_util_1 = __importDefault(require("../util/randoms-util"));
 const CONSTANTS_1 = require("../util/CONSTANTS");
 class CodeGenerator {
     /**
