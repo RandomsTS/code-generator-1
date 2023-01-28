@@ -2,6 +2,7 @@
   "name": "@randomsts/code-generator",
   "version": "2.9.9",
   "description": "A lightweight CLI to recursively include all file from a directory in a single source file.",
+  "type": "commonjs",
   "keywords": [
     "randomsts",
     "randoms",
