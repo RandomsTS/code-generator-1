@@ -1,6 +1,8 @@
-import CodeGenerator from "./lib/code-generator";
-export { CodeGenerator }
-export default CodeGenerator;
+import * as CodeGenerator from "./lib/code-generator";
+export = CodeGenerator;
+
+
+
 
 
 
