@@ -3,7 +3,7 @@ import RandomsUtil from '../util/randoms-util';
 import { helperText } from '../util/CONSTANTS';
 import type { RandomsConfig } from '../types/util-types';
 
-export = class CodeGenerator 
+class CodeGenerator 
 {
     /**
      * @param config `RandomsConfig`
@@ -111,3 +111,6 @@ export = class CodeGenerator
         }
     }
 }
+
+
+export = CodeGenerator;
